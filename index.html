@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0B3D2C">
+<title>Agence judiciaire de l’État — Accueil</title>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=Archivo:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Cairo:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+
+<header class="header" id="header">
+  <div class="capsule">
+    <a href="#/accueil" class="brand"><span class="seal"><img src="assets/img/logo.png" alt=""></span><span style="min-width:0"><b data-i="brand"></b><small data-i="ministry"></small></span></a>
+    <div class="actions">
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="drawer" data-aria="menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
+      <button class="lang" id="langBtn" type="button"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg><span id="langTxt"></span></button>
+      <a href="#/connexion" class="btn btn-gold" data-aria="space"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span class="hide-sm" data-i="space"></span></a>
+
+    </div>
+  </div>
+  <div class="menu-row"><div class="menu-inner"><nav class="nav" id="nav" data-aria="navAria"></nav></div></div>
+  <div class="drawer" id="drawer"><nav id="drawerNav"></nav></div>
+</header>
+
+<main>
+<!-- 1. HÉROS : sobre et compact -->
+<section class="hero" id="accueil">
+  <div class="pattern" aria-hidden="true"></div>
+  <div class="wrap">
+    <h1><span class="ln"><span data-i="h1a"></span></span><span class="ln"><span data-i="h1b"></span></span></h1>
+    <div class="fulcrum" aria-hidden="true"><span class="arm l"></span><span class="piv"></span><span class="arm r"></span></div>
+    <p class="lead in-a b" data-i="lead"></p>
+    <form class="hsearch in-a c" role="search" onsubmit="return false">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" data-i="searchLabel"></label>
+      <input id="q" type="search" autocomplete="off">
+      <button class="btn btn-gold" type="submit" data-i="searchBtn"></button>
+    </form>
+  </div>
+</section>
+
+<!-- GUICHET : accès rapides posés sur le héros -->
+<section class="quick" id="guichet" aria-labelledby="qa-t">
+  <div class="wrap">
+    <h2 id="qa-t" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" data-i="gTitle"></h2>
+    <div class="qbar in-a d" id="qbar"></div>
+  </div>
+</section>
+
+<!-- 2. CHIFFRES -->
+<section class="sec" id="chiffres" aria-labelledby="c-t">
+  <div class="wrap">
+    <div class="head rv"><div><span class="label" data-i="stLabel"></span><h2 id="c-t" class="title" data-i="stTitle"></h2></div><span class="note" data-i="stNote"></span></div>
+    <div class="flaps rv d1" id="flaps"></div>
+  </div>
+</section>
+
+<!-- 3. MOT DE L'AGENT : bandeau compact -->
+<section class="sec dark ed3" id="agence" aria-labelledby="w-t">
+  <div class="wrap ed3-in">
+    <figure class="ed3-ph rv" aria-hidden="true">
+      <span class="ring"></span>
+      <span class="pic"><svg viewBox="0 0 60 44"><circle cx="30" cy="16" r="10" fill="rgba(255,255,255,.35)"/><path d="M8 44c2-13 11-17 22-17s20 4 22 17z" fill="rgba(255,255,255,.35)"/></svg></span>
+      <span class="seal"><img src="assets/img/logo.png" alt=""></span>
+    </figure>
+    <div class="rv d1">
+      <div class="ed3-top"><span class="label" data-i="wLabel"></span><span class="sep" aria-hidden="true"></span><h2 id="w-t" data-i="wTitle"></h2></div>
+      <blockquote class="ed3-q" id="quote"></blockquote>
+      <div class="ed3-foot">
+        <div class="ed3-who">
+          <svg width="110" height="34" viewBox="0 0 150 44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 32c10-22 18-26 20-14s-6 18 2 12 14-20 18-14-2 16 6 12 10-12 16-8 4 10 12 6 8-10 14-8 10 6 18 2 14-6 20-4"/></svg>
+          <div><b data-i="agentName"></b><span data-i="agentRole"></span></div>
+        </div>
+        <a href="#agence" class="btn btn-gold"><span data-i="wMore"></span><svg class="flip" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. ACTUALITÉS : à la une + liste -->
+<section class="sec news3" id="actualites" aria-labelledby="n-t">
+  <div class="wrap">
+    <div class="head rv"><div><span class="label" data-i="nLabel"></span><h2 id="n-t" class="title" data-i="nTitle"></h2></div></div>
+    <div class="ntabs rv" role="group" id="sections" data-aria="filterAria"></div>
+    <div class="nlayout rv d1" id="une"></div>
+  </div>
+</section>
+
+<!-- 5. PUBLICATIONS : étagère -->
+<section class="sec dark" id="publications" aria-labelledby="p-t">
+  <div class="wrap">
+    <div class="head rv"><div><span class="label" data-i="pbLabel"></span><h2 id="p-t" class="title" data-i="pbTitle"></h2></div><a href="#/publications" class="link"><span data-i="pbAll"></span><svg class="flip" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="shelf rv d1" id="shelf"></div>
+    <p class="shelf-hint" data-i="shelfHint"></p>
+  </div>
+</section>
+
+<!-- 6. ESPACE ADMINISTRATIONS -->
+<section class="sec" id="espace" aria-labelledby="e-t">
+  <div class="wrap mz">
+    <div class="rv">
+      <span class="label" data-i="spLabel"></span>
+      <h2 id="e-t" class="title" data-i="spTitle"></h2>
+      <p class="sub" data-i="spText"></p>
+      <ul id="spList"></ul>
+      <div class="ctas"><a href="#/connexion" class="btn btn-green"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span data-i="login"></span></a><small data-i="loginNote"></small></div>
+    </div>
+    <div class="dossier rv d1" id="dossier" aria-hidden="true">
+      <div class="dtop"><div><b data-i="caseTitle"></b><small data-i="caseSub"></small></div><span class="status" id="status"></span></div>
+      <div class="track"><span class="rail"></span><span class="fill" id="tfill"></span><div id="steps" style="display:contents"></div></div>
+      <div class="log" id="log"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="giant" aria-hidden="true" data-i="giant"></div>
+  <div class="wrap">
+    <div class="f-cta"><h2><span data-i="fc1"></span> <em data-i="fc2"></em></h2><a href="#/contact" class="btn btn-gold"><span data-i="fcBtn"></span><svg class="flip" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="f-grid">
+      <div><div class="f-brand"><span class="seal"><img src="assets/img/logo.png" alt=""></span><b data-i="brand"></b></div><p class="f-about" data-i="footAbout"></p></div>
+      <div><h3 class="label" data-i="footFind"></h3><div class="f-list"><span data-i="address"></span><span class="ltr" data-i="phone"></span><a class="ltr" href="#/contact" data-i="email"></a></div></div>
+      <div><h3 class="label" data-i="footMap"></h3><div class="f-cols" id="fmap"></div></div>
+      <div><h3 class="label" data-i="footLegal"></h3><div class="f-list" id="flegal"></div></div>
+    </div>
+  </div>
+  <div class="f-bottom"><div class="wrap"><span data-i="copyright"></span><button class="totop" type="button" id="toTop"><span data-i="toTop"></span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button></div></div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

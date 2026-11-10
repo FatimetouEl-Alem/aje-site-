@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420">
+<defs><pattern id="p" width="30" height="30" patternUnits="userSpaceOnUse"><g fill="none" stroke="#FFFFFF" stroke-opacity=".16"><rect x="9" y="9" width="12" height="12"/><rect x="9" y="9" width="12" height="12" transform="rotate(45 15 15)"/></g></pattern>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B3D2C" stop-opacity="0"/><stop offset="1" stop-color="#0B3D2C"/></linearGradient></defs>
+<rect width="300" height="420" fill="#0B3D2C"/><rect width="300" height="210" fill="url(#p)"/><rect y="120" width="300" height="90" fill="url(#f)"/>
+<rect width="300" height="6" fill="#F2C230"/><text x="34" y="38" font-family="Arial, Helvetica, sans-serif" font-size="8.5" letter-spacing="1.6" fill="#FFFFFF" fill-opacity=".8">RÉPUBLIQUE ISLAMIQUE DE MAURITANIE</text><g transform="translate(150,128)" fill="none" stroke="#F2C230" stroke-width="2.2" stroke-linecap="round">
+<circle r="46" stroke-opacity=".55"/><circle r="40" stroke-opacity=".25"/>
+<path d="M0 -24 V22 M-14 24 H14 M-24 -16 H24"/>
+<path d="M-24 -16 L-32 4 M-24 -16 L-16 4 M24 -16 L16 4 M24 -16 L32 4" stroke-width="1.2"/>
+<path d="M-34 4 Q-24 14 -14 4 Z M14 4 Q24 14 34 4 Z" fill="#F2C230"/>
+<circle cy="-27" r="3" fill="#F2C230"/></g><text x="34" y="228" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" letter-spacing="2" fill="#F2C230">RAPPORT</text><text x="34" y="262" font-family="Georgia, serif" font-weight="700" font-size="27" fill="#FFFFFF">Rapport annuel</text><text x="34" y="294" font-family="Georgia, serif" font-weight="700" font-size="27" fill="#FFFFFF">d’activité</text><text x="34" y="326" font-family="Georgia, serif" font-weight="700" font-size="27" fill="#FFFFFF">2026</text>
+<line x1="34" y1="364" x2="266" y2="364" stroke="#FFFFFF" stroke-opacity=".3"/><text x="34" y="386" font-family="Georgia, serif" font-size="11.5" fill="#FFFFFF">Agence judiciaire de l’État</text><text x="266" y="386" text-anchor="end" font-family="Courier New, monospace" font-size="10" fill="#FFFFFF" fill-opacity=".75">AJE-RA-2026</text><rect x="0" y="0" width="12" height="420" fill="#000" fill-opacity=".14"/><rect x="12" y="0" width="1.5" height="420" fill="#fff" fill-opacity=".18"/></svg>
